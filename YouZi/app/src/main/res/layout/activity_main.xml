@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <Button
+        android:id="@+id/start_float_window"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="startFloat"
+        android:text="@string/start_suspension_window" />
+
+    <Button
+        android:id="@+id/stop_float_window"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="stopFloat"
+        android:text="@string/stop_suspension_window" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="screenShot"
+        android:text="@string/screen_shot" />
+
+</LinearLayout>
